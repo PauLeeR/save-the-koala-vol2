@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!--CDN Font-Awesome-->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Linkear js Font Awesome -->
+	<script src="https://use.fontawesome.com/6bff936249.js"></script>
 	<!--mis estilos-->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -41,7 +43,7 @@
 				<div class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-12 text-left">
 					<h1>Save The Koala</h1>
 					<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-					<button class="btn btn-default" type="submit">See more</button>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Hola, soy un botón">See more</button>
 				</div>
 			</div>
 		</div>
@@ -75,13 +77,26 @@
 	<section class="third-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-offset-1 col-lg-6 col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-12 col-xs-12 text-left">
+				<div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-12 col-xs-12 text-left">
 					<h6>EASY HELP</h6>
 					<h3 class="title-third-section">Save Koalas From Possible Extinction!</h3>
 					<p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-					<button class="btn btn-default" type="submit">Read more</button>
-				</div>
-				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read more</button>
+					<div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">ERROR 400</h4>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div><!-- /.modal-content -->
+						</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+					</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img src="img/cosita.jpg" alt="thing" class="img-responsive thing">
 				</div>
 			</div>	
@@ -92,7 +107,7 @@
 		<div class="container-fourth-section">
 			<div class="text-fourth-section">
 				<div class="row no-tree">
-					<div class="col-lg-offset-6 col-lg-4 col-md-offset-7 col-md-7 col-sm-12 col-xs-12 text-left">
+					<div class="col-lg-offset-6 col-lg-4 col-md-offset-6 col-md-4 col-sm-offset-1 col-xs-offset-1 text-left">
 						<h5 class="title-fourth-section">HELP KOALAS</h5>
 						<h3 class="title-fourth-section">“No Tree... No Me”</h3>
 						<h6 class="title-fourth-section">Dick Marks, AKF’s creative supporter</h6>
@@ -209,6 +224,10 @@
 			</div>
 		</div>
 	</footer>
+	<!-- Script de jQuery y Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
 

@@ -43,7 +43,7 @@ army green: 41521F;
 	padding-top: 7em;
 }
 
-.btn-default{
+.modal-footer .btn-default, .third-section .btn-lg{
 	color: #fff;
 	background-color: #41521F;
 	border: none;
@@ -104,9 +104,9 @@ army green: 41521F;
 	text-align: center;
 	margin-bottom: 80px;
 	border: 7px solid white;
-	margin-top: 9em;
+	margin-top: 6em;
 	padding-top: 0;
-	position: relative;
+	position: static;
 }
 
 /* Sección 4 */
@@ -120,7 +120,7 @@ army green: 41521F;
 
 .container-fourth-section .text-left{
 	margin-top: 70px;
-	margin-left: 680px;
+
 }
 
 .text-left h3{
