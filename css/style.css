@@ -1,0 +1,238 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+/* Sección 1 Bienvenida */
+.navbar-default{
+	z-index: 1;
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+	color:#FFF;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav li a{
+	color: #FFF;
+	text-shadow: 1px 1px #333;
+}
+
+.container-fluid>.navbar-header{
+	padding-left: 2em;
+}
+
+.navbar-nav li a{
+	padding-right: 3em;
+}
+
+.bienvenida{
+	background-image: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+}
+
+.bienvenida .navbar-brand{
+	align-content: left;
+}
+.bienvenida h1{
+	text-align: left;
+	font-weight: bolder;
+	padding-top: 7em;
+}
+
+.btn-default{
+	color: #fff;
+	background-color: #41521F;
+	border: none;
+	font-weight: bolder;
+}
+
+/* Sección 2 */
+.tres {
+	margin-top: 60px;
+	margin-bottom: 120px;
+}
+
+.second-section{
+	font-size: 12px;
+}
+
+.two-section{
+	padding-left: 0px;
+	margin-top: 20px;
+}
+
+.two-section .text-left{
+	margin-top: 170px;
+	padding-bottom: -10px;
+	padding-left: 0px;
+}
+.two-section .izq{
+	margin-top: 0px;
+}
+
+.title-second-section {
+	color: #A89F68;
+	font-weight: bold;
+}
+
+/* Sección 3 */
+.third-section{
+	background-color: #A89F68;
+	text-align: left;
+}
+
+.title-third-section{
+	color: #41521F;
+	font-weight: bold;
+}
+
+.third-section h6{
+	font-size: 12px;
+	color: #fff;
+	padding-top: 10em;
+}
+
+.third-section p, .no-tree{
+	color: #fff;
+}
+
+.thing{
+	text-align: center;
+	margin-bottom: 80px;
+	border: 7px solid white;
+	margin-top: 9em;
+	padding-top: 0;
+	position: relative;
+}
+
+/* Sección 4 */
+.container-fourth-section{
+	background-image: url(../img/all.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container-fourth-section .text-left{
+	margin-top: 70px;
+	margin-left: 680px;
+}
+
+.text-left h3{
+	padding-top: 10px;
+	padding-left: 0px;
+	font-weight: 600;
+}
+
+/* Sección 5 */
+.fifth-section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.fifth-section h5{
+	font-size: 18px;
+	font-weight: 700;
+	color: #A89F68; 
+}
+
+.fa-heart, .fa-globe, .fa-paw{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #A89F68; 
+}
+
+.texto-s5{
+	margin-top: 10px;
+}
+
+/* Sección 6 */
+
+.sixth-section{
+	background-color: #A89F68;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.title-sixth-section{
+	font-size: 20px;
+	color: #41521F;
+	font-weight: bolder;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.container{
+	text-align: center;
+}
+
+.money-symbol{
+	margin-bottom: 0px;
+	position: absolute;
+}
+
+.figure{
+	font-size: 80px;
+}
+
+.money-symbol, .figure, .currency{
+	color: #fff;
+	font-weight: lighter;
+}
+.line{
+	border-top: 1px solid white;
+	margin-top: 30px;
+}
+
+.texto-sec6{
+	font-weight: bolder;
+}
+
+span{
+	font-weight: bolder;
+}
+
+.donate{
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.btn-primary{
+	color: #fff;
+	background-color: #41521F;
+	border: none;
+	font-weight: bolder;
+}
+
+/* Sección 7 Footer */
+.seventh-section{
+	background-color: #41521F;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.seventh-section h5, .seventh-section a {
+	font-weight: bold;
+	color: #A89F68;
+	display: block;
+}
+
+.footer-content{
+	color: #fff;
+}
+
+.coloured-link {
+	font-weight: bolder;
+	color: #A89F68;
+}
+
+.sevent-section .text-left{
+	text-decoration: none;
+	text-overflow: 
+}
