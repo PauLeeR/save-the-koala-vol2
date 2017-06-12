@@ -43,13 +43,6 @@ army green: 41521F;
 	padding-top: 7em;
 }
 
-.modal-footer .btn-default, .third-section .btn-lg{
-	color: #fff;
-	background-color: #41521F;
-	border: none;
-	font-weight: bolder;
-}
-
 /* Sección 2 */
 .tres {
 	margin-top: 60px;
@@ -98,6 +91,13 @@ army green: 41521F;
 
 .third-section p, .no-tree{
 	color: #fff;
+}
+
+.btn-default{
+	color: #fff;
+	background-color: #41521F;
+	border: none;
+	font-weight: bolder;
 }
 
 .thing{
@@ -235,4 +235,31 @@ span{
 .sevent-section .text-left{
 	text-decoration: none;
 	text-overflow: 
+}
+
+
+/* carousel */ 
+.carousel-inner img {
+  margin: auto;   /* esto hace que todas las slides se vean centradas dentro del carousel*/
+}
+
+.sixth-section .btn-lg, .third-section .btn-lg{
+	color: #fff;
+	background-color: #41521F;
+	border: none;
+	font-weight: bolder;
+}
+
+.btn-primaryDonate{
+	background-color: #41521F;
+	color: #fff;
+}
+
+/* collapse */
+.well {
+    background-color: #41521f;
+    color: #fff;
+    border: none;
+    font-weight: lighter;
+    font-size: 13px;
 }
