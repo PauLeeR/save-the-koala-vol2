@@ -237,22 +237,16 @@ span{
 	text-overflow: 
 }
 
-
 /* carousel */ 
 .carousel-inner img {
   margin: auto;   /* esto hace que todas las slides se vean centradas dentro del carousel*/
 }
 
-.sixth-section .btn-lg, .third-section .btn-lg{
+.btn-lg{
 	color: #fff;
 	background-color: #41521F;
 	border: none;
 	font-weight: bolder;
-}
-
-.btn-primaryDonate{
-	background-color: #41521F;
-	color: #fff;
 }
 
 /* collapse */
